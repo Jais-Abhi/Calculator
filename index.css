@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background:url(bws-maths-tutoring.jpg);
+    background: url(image.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -27,7 +27,7 @@ body::before{
     width: 30rem;
     border-radius: 1.5rem;
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 3rem rgb(85, 86, 87);
+    box-shadow: 0 0 3rem rgb(0, 0, 0);
 }
 .display{
     height: 10rem;
