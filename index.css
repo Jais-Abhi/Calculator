@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:url(bws-maths-tutoring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+body::before{
+    content: "";
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+}
+.card{
+    height: 85vh;
+    background: linear-gradient(to top ,rgba(28, 27, 27, 0.744),rgba(44, 41, 41, 0.705));
+    width: 30rem;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 3rem rgb(85, 86, 87);
+}
+.display{
+    height: 10rem;
+    width: 100%;
+    background-color: #46562a;
+    color: white;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 20px solid black;
+    overflow: hidden;
+}
+.button-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+    gap: 8px;
+
+}
+button{
+   height: 5rem;
+   width: 6.5rem;
+   border-radius: 20px;
+   font-size: 3rem;
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   background-color: rgba(22, 17, 17, 0.76);
+   border: none;
+}
+button:hover{
+    background-color: rgba(83, 79, 79, 0.655);
+}
+.operation{
+    background-color: rgba(83, 79, 79, 0.655);
+}
+.operation:hover{
+    background: rgba(22, 17, 17, 0.76);
+}
+.AC{
+    background: rgba(214, 20, 20, 0.808);
+}
+.AC:hover{
+    background: rgb(255, 0, 0);
+    font-size: 2.5rem;
+}
+.equal{
+    background: green;
+}
+.equal:hover{
+    background: rgb(3, 226, 3);
+    font-size: 4.5rem;
+}
+
+.sci-button{
+    display: none;
+}
